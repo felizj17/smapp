@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.Wrapper{
+  padding: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar{
+  display:flex;
+  flex-direction:row;
+  background-color:crimson;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#bars{
+  margin-left: 10px;
+  padding-left: 5px;
+  margin-right:5%;
+  margin-top:10px;
 }
+#bars:hover{
+  color:white;
+}
+#logo{
+ margin-top: 1px;
+  color:white;
+}
+#rightnav{
+  display:flex;
+  flex-direction: row;
+  margin-left: 20%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+#add-book{
+  margin-top:11px;
+}
+#add-book:hover{
+  color:white;
+}
+#search{
+  margin-top:10px;
+  
+  padding:2px;
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  border:1px solid black;
+}
+#search:hover{
+  background-color: white;
+  color:crimson;
+  border-color: white;
+}
+#searchbar{
+  margin-left: 20%;
+  border:solid black 1px;
+  height:18px;
+  width:35%;
+  margin-top: 10px;
+}
+#envelope{
+  margin-left:80%;
+  margin-top:10px;
+
+}
+#envelope:hover{
+  color:white;
+}
+/*body*/
+body{
+  background-color: rgb(197, 204, 184);
+}
+.preview-tiles{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex: row;
+  justify-content: space-evenly;
+  margin-top: 10vh;
 }

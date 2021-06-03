@@ -1,0 +1,28 @@
+
+.preview{
+    margin-top: 50px;
+    border:crimson 2px solid;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.preview:hover{
+    transform: scale(1.1);
+    background-color: crimson;
+    color:white;
+    justify-content: space-evenly;
+}
+.img-preview{
+    height:25vh;
+    width: 20vw;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+#title{
+    border-top:solid 2px crimson;
+    font-size:20px;
+    text-align: center;
+    margin-top:0%;
+}
